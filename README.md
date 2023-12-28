@@ -2,4 +2,4 @@
 parent : qtalk-root
 ---------------
 ### qtalk front for test
-es6+, nextjs, rest api, firebase notification\
+es6+, nextjs, chat(socket), rest api, firebase notification\

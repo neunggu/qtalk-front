@@ -1,0 +1,24 @@
+
+.container{
+  width: 100%;
+  max-width: 450px;
+  height: 150px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.close{
+  position: absolute;
+  left: 10px;
+  top: 0;
+  font-size: 2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+  z-index: 10;
+}
+/* .image {
+  width: 100%;
+} */

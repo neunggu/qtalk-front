@@ -1,0 +1,69 @@
+.myTalk {
+  margin: 0 8px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.imageContainer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.imageContainerOpen {
+  border-radius: 10px;
+}
+.image {
+  border-radius: 50%;
+}
+.imageOpen {
+  border-radius: 10px;
+}
+.qCount {
+  position:absolute;
+  border-radius: 20px;
+  right: 0;
+  bottom: 0;
+  padding: 3px 7px;
+  color: white;
+  background-color: gray;
+  font-size: 0.8rem;
+}
+.myTalkTitleContainer {
+  margin-left: 15px;
+  width: 69%;
+}
+.myTalkTitle {
+  margin: 0;
+  display: flex;
+}
+.userCount {
+  font-size: 1rem;
+  color: gray;
+  margin-left: 10px;
+}
+.myTalkIntroduce {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+.newMessageBadge {
+  border-radius: 20px;
+  right: 8px;
+  bottom: 8px;
+  padding: 2px 6px;
+  color: white;
+  background-color: darkgreen;
+  width: 45px;
+  text-align: center;
+}
+.openTalkMark {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 5px;
+}

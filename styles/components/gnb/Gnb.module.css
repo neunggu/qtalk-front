@@ -1,0 +1,31 @@
+.container {
+  padding: 15px 0.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  flex: 2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+}
+.icons li{
+  flex: 1;
+  float: left;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.icons li a {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+

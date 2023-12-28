@@ -1,0 +1,56 @@
+.friendItemForSearchResult {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+}
+.info {
+  padding-left: 16px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+.imageContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+.image {
+  border-radius: 50%;
+}
+.nameContainer {
+  margin-left: 15px;
+}
+.name {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.email {
+  font-size: 0.8rem;
+  color: gray;
+}
+.btnRequestFriend {
+  position: absolute;
+  right: 15px;
+  color: darkgreen;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+.requested {
+  cursor: default;
+}
+.request {
+  cursor: pointer;
+}
+.request:hover {
+  color: white;
+  background-color: darkgreen;
+}

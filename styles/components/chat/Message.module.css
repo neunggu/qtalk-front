@@ -1,0 +1,12 @@
+.infoMessageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.infoMessage {
+    font-size: 14px;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: darkgreen;
+}

@@ -1,0 +1,63 @@
+.searchFriends {
+  background-color: aliceblue;
+  width: 450px;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 450px;
+}
+.search {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.title {
+  font-weight: bold;
+}
+.searchInputContainer {
+  position: relative;
+  margin: 10px 0;
+}
+.searchInput {
+  border-radius: 5px;
+  line-height: 30px;
+  border: 1px solid darkgreen;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+.btnClear {
+  background-color: darkgreen;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 15px;
+  padding-bottom: 5px;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.searchInput::placeholder {
+  color: darkgreen;
+  opacity: 0.6;
+}
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 10px #719ECE;
+}
+.result {
+  padding: 16px;
+}
+.hr {
+  border: 0;
+  height: 10px;
+  background: #ccc;
+}

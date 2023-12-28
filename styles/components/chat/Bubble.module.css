@@ -1,0 +1,23 @@
+.bubbleContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+.bubbleContainer.me {
+  flex-direction: row-reverse;
+}
+.bubble {
+  background-color: lightgray;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.bubble.me {
+  background-color: lightgreen;
+  border-top-right-radius: unset;
+}
+.bubble.friend {
+  border-top-left-radius: unset;
+}

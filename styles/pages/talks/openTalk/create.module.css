@@ -1,0 +1,223 @@
+.createOpenTalk {
+  background-color: aliceblue;
+  width: 450px;
+}
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 450px;
+}
+.imageBackground {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: darkgreen;
+  position: relative;
+}
+.openTalkImage {
+  border-radius: 10px;
+}
+.btnAddImage {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  padding: 3px 0;
+  font-size: 0.8rem;
+  color: white;
+  background-color: darkgreen;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.hide {
+  visibility: hidden;
+}
+.main {
+  padding: 0 0.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 100%;
+}
+.main > div {
+  margin-bottom: 30px;
+}
+.main h4 {
+  margin: 10px 0;
+  /* margin-bottom: 10px; */
+  letter-spacing: -1px;
+}
+.main input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+}
+.main input::placeholder {
+  color: darkgreen;
+  opacity: 0.6;
+}
+.main input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #719ECE;
+}
+.main .lengthLimit {
+  text-align: right;
+  font-size: 0.9rem;
+}
+.main .lengthLimit span {
+  color: darkgreen;
+  opacity: 0.6;
+}
+
+.inputTagsContainer {
+  position: relative;
+}
+.inputTagsContainer input {
+  padding-left: 25px;
+  padding-right: 60px;
+}
+.inputTagsContainer .sharp {
+  color:darkgreen;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.btnAddTag {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  right: -18px;
+  transform: translate(-50%, -50%);
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  padding: 3px 0;
+  font-size: 0.8rem;
+  color: darkgreen;
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.btnAddTag:hover{
+  color:white;
+  background-color: darkgreen;
+}
+.addedTags {
+  width: 100%;
+  height: 140px;
+  position: relative;
+  background-color: aliceblue;
+  border: 1px solid darkgreen;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  word-break:break-all
+}
+.addedTags:empty::before {
+  content:attr(data-placeholder);
+  color:gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}
+.addedTagsContainer {
+  position: relative;
+}
+.addedTagsContainer h5 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+.addedTagsContainer .addedTag {
+  background-color: darkgreen;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  line-height: 35px;
+}
+
+.searchPermit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnCreate {
+  text-align: center;
+  border-radius: 10px;
+  line-height: 45px;
+  font-weight: bold;
+  color: darkgreen;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid currentColor;
+}
+.btnCreate:hover {
+  color: white;
+  background-color: darkgreen;
+}
+
+/* switch */
+.btnSwitch { 
+  position: relative; 
+  display: inline-block;
+  width: 55px;
+  height: 30px; 
+} 
+.btnSwitch input { 
+  opacity: 0; 
+  width: 0; 
+  height: 0; 
+}
+.onoffSwitch { 
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius:20px;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.onoffSwitch:before { 
+  position: absolute; 
+  content: ""; 
+  height: 22px; 
+  width: 22px; 
+  left: 4px; 
+  bottom: 4px; 
+  background-color: #fff; 
+  -webkit-transition: .5s; 
+  transition: .4s; 
+  border-radius:20px; 
+}
+.btnSwitch input:checked + .onoffSwitch { 
+  background-color: darkgreen; 
+}
+.btnSwitch input:checked + .onoffSwitch:before { 
+  -webkit-transform: translateX(26px); 
+  -ms-transform: translateX(26px); 
+  transform: translateX(26px); 
+}

@@ -1,0 +1,32 @@
+.chatRoomGnb {
+  position: fixed;
+  width: 450px;
+  z-index: 10;
+  background-color: inherit;
+}
+.container{
+  width: 100%;
+  max-width: 450px;
+  height: 20px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.close{
+  position: absolute;
+  left: 10px;
+  font-size: 2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.title{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+.userCount {
+  color: darkgreen;
+  font-size: 0.9rem;
+}

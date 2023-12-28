@@ -1,0 +1,50 @@
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 450px;
+  height: 80px;
+  background-color: cadetblue;
+  padding: 5px 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.foot li {
+  float: left;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.bottomImageContainer {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  flex:1;
+  cursor: pointer;
+}
+.messageInputContainer {
+  position: relative;
+  flex:8;
+}
+.messageInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid darkgreen;
+  padding: 0 20px;
+  font-size: 1rem;
+  color: darkgreen;
+}
+.messageInput:focus {
+  outline: none;
+}
+.send {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.sendImageContaner {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}

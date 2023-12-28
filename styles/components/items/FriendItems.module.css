@@ -1,0 +1,43 @@
+.friends {
+  white-space:nowrap;
+  overflow-x: auto;
+  list-style-type: none;
+  padding:0;
+  padding-left: 8px;
+  width: 450px;
+  cursor: pointer;
+}
+.friend {
+  display:inline-block;
+  text-align: center;
+  margin: 0 8px;
+  height: 80px;
+}
+.noScroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.noScroll {
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.imageContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.image {
+  border-radius: 50%;
+}
+.nick {
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 8px;
+  font-weight: bold;
+}

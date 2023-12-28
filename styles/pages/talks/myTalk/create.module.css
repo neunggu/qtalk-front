@@ -1,0 +1,43 @@
+.createTalk {
+  background-color: aliceblue;
+  width: 450px;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 450px;
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.hr {
+  border: 0;
+  height: 10px;
+  background: #ccc;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  margin-top: 10px;
+}
+.title {
+  flex:9;
+  margin: 5px 0;
+}
+.title span {
+  color: darkgreen
+}
+.search {
+  flex:1;
+  text-align: end;
+  color: gray;
+  font-weight: bold;
+}

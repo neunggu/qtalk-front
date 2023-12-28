@@ -1,2 +1,5 @@
 # qtalk-front
-qtalk fron for test 
+parent : qtalk-root
+---------------
+### qtalk front for test
+es6+, nextjs, rest api, firebase notification\

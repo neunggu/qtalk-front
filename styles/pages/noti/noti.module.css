@@ -1,0 +1,79 @@
+.noti {
+  background-color: aliceblue;
+  width: 450px;
+  height: 100%;
+  min-height: 100vh;
+}
+.navContainer {
+  position:fixed;
+  width: 100%;
+  max-width: 450px;
+  padding: 8px;
+}
+.container {
+  padding: 8px;
+  width: 450px;
+  margin-top: 50px;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.nav a {
+  padding-bottom: 8px;
+  flex:1;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.active {
+  color: darkgreen;
+  border-bottom: 3px solid darkgreen !important;
+}
+
+.notice {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.imageContainer {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  flex: 1;
+}
+.imageContainer .image {
+  border-radius: 50%;
+}
+.contents {
+  flex: 9;
+  margin-left: 10px;;
+}
+.message {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.createTime {
+  font-size: 0.8rem;
+  color: darkgray;
+  margin-top: 5px;
+}
+.btnContainer {
+  margin-top: 10px;
+}
+.btn {
+  border: 1px solid darkgreen;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  color: white;
+  background-color: darkgreen;
+}
